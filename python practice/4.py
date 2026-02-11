@@ -1,18 +1,13 @@
-print("Love") #output
+print( "love")
 
-boy_name = input("Boy Name: ")
-boy_age = int(input("Boy Age: "))
-girl_name = input("Girl Name:  ")
-girl_age = int(input("Girl Age: "))
+girl_name = input("girl_name: ")
+girl_age = int(input("girl_age: "))
+boy_name = input("boy_name: ")
+boy_age = int(input("boy_age: "))
 
-# single line comment
-age_diff = abs(boy_age - girl_age)
+age_diff = abs(girl_age - boy_age)
 
-'''
-this
-is a multline
-comment
-'''
-print(boy_name + " loves " + girl_name + ". Age Difference is " + str(age_diff))
+print( boy_name + " loves " + girl_name + ". age difference is " + str(age_diff ))
 
-print(f"{boy_name} loves {girl_name}. Age Difference is {age_diff}")
+  #formatted strings
+print(f"{boy_name} loves {girl_name}. age difference is {age_diff}")
