@@ -9,7 +9,7 @@ print(full_name)
 
 #repetition
 
-message = "warningertyuiop! " 
+message = "warning! " 
 print(message *10)
 
 
